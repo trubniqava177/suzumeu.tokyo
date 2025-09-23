@@ -150,6 +150,8 @@ page-permalink page-">
 
 }
 
+
+
 h1.entry-title {
    text-align: center;
 }
@@ -166,6 +168,32 @@ h1.entry-title {
 .entry-content h3 {
     margin: 1em 0 1em 0;
     line-height: 1.5;
+}
+
+.styled-li {
+  list-style: none;       /* հեռացնում է սովորական bullets */
+  padding-left: 0;
+  margin: 12px 0;
+}
+
+.styled-li li {
+  position: relative;
+  padding-left: 28px;    /* տեղ checkmark-ի համար */
+  margin-bottom: 10px;
+  font-weight: 500;
+  color: #222;
+  line-height: 1.5;
+}
+
+/* Checkmark before each li */
+.styled-li li::before {
+  content: "✔";           /* Unicode checkmark (not emoji) */
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #0b7a3a;         /* գույնը կարող ես փոխել */
+  font-size: 16px;
+  line-height: 1;
 }
 
 
@@ -280,7 +308,7 @@ h1.entry-title {
                     Download a realistic electricity bill template in PDF, Word, and Excel formats. Fully editable and
                     printable, this utility bill sample is perfect for:</p>
 
-                <ul class="styled-list">
+                <ul class="styled-li">
                     <li>proof of address format</li>
                     <li><b>UI/UX</b> mockups & design portfolios</li>
                     <li>software testing & validation</li>
@@ -345,24 +373,24 @@ h1.entry-title {
                     style="margin-top: 32px;color: #444;line-height: 26px;font-size: 16px;font-weight: 400;">
                     <p><b>telegram:</b> <a class="hoverA" href="https://t.me/axtempl" aria-label="Link to /terms-of-use"
                             target="_self" data-playwright="related-link-/terms-of-use"
-                            display="inline-flex" style="text-decoration: underline rgb(50, 215, 0)">axtempl</a></p>
+                            display="inline-flex" style="text-decoration: underline #0b7a3a;">axtempl</a></p>
 
                     <p><b>WhatsApp:</b>
                         <a class="hoverA" href="https://wa.me/37253725910" aria-label="Link to /terms-of-use"
                             target="_self" data-playwright="related-link-/terms-of-use" display="inline-flex"><span
-                                font-family="Rubik" font-size="16" class="sc-5878aa-0 gCxmcS" style="text-decoration: underline rgb(50, 215, 0)">+372 5372 5910</span></a>
+                                font-family="Rubik" font-size="16" class="sc-5878aa-0 gCxmcS" style="text-decoration: underline #0b7a3a;">+372 5372 5910</span></a>
                     </p>
 
                     <p><b>email:</b>
                         <a class="hoverA" href="mailto:gotemply@gmail.com" aria-label="Link to /terms-of-use"
                             target="_self" data-playwright="related-link-/terms-of-use" display="inline-flex"><span
                                 font-family="Rubik" font-size="16"
-                                class="sc-5878aa-0 gCxmcS" style="text-decoration: underline rgb(50, 215, 0)">gotemply@gmail.com</span></a>
+                                class="sc-5878aa-0 gCxmcS" style="text-decoration: underline #0b7a3a;">gotemply@gmail.com</span></a>
                     </p>
 
                     <p><b>facebook:</b> <a class="hoverA" href="https://m.me/Oxtempl" aria-label="Link to /terms-of-use"
                             target="_self" data-playwright="related-link-/terms-of-use" display="inline-flex"><span
-                                font-family="Rubik" font-size="16" class="sc-5878aa-0 gCxmcS" style="text-decoration: underline rgb(50, 215, 0)">oxtempl</span></a></p>
+                                font-family="Rubik" font-size="16" class="sc-5878aa-0 gCxmcS" style="text-decoration: underline #0b7a3a;">oxtempl</span></a></p>
                 </div>
 
 
